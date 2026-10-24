@@ -1,0 +1,36 @@
+name: SektorCore2
+version: 2.0.0
+main: pl.sektor.core2.Core2
+api-version: '1.21'
+softdepend: [SektorCore]
+description: SektorCore partia 2 - kity, GUI warpow, losowanie, keyall, odbierz
+commands:
+  kit:
+    description: Zestawy (GUI)
+    usage: /kit [nazwa]
+    aliases: [kity, zestawy]
+  kitadmin:
+    description: Zarzadzanie zestawami
+    usage: /kitadmin <utworz|usun|ikona|cooldown|lista>
+  warpy:
+    description: Menu warpow (GUI)
+    usage: /warpy
+    aliases: [warpmenu]
+  losuj-zestaw:
+    description: Losuj nagrode z animacja
+    usage: /losuj-zestaw
+  losujadmin:
+    description: Zarzadzanie nagrodami losowania
+    usage: /losujadmin <dodaj|usun|lista|cooldown>
+  keyall:
+    description: Rozdaj przedmiot z reki wszystkim (odliczanie)
+    usage: /keyall [opis]
+  odbierz:
+    description: Odbierz nagrody
+permissions:
+  sektor.admin:
+    default: op
+  sektor.losuj:
+    default: true
+  sektor.bypass.cooldown:
+    default: op

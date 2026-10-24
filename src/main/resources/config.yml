@@ -1,0 +1,12 @@
+prefix: "&8[&6SektorCore&8] &7"
+# true = kazdy zestaw wymaga permisji sektor.kit.<nazwa> (albo sektor.kit.*)
+kits-require-permission: false
+keyall:
+  countdown: 10
+roulette:
+  # 100 ticków = 5 sekund animacji
+  duration-ticks: 100
+  steps: 40
+# Ikony warpow w /warpy: nazwa_warpa: MATERIAL
+warp-icons:
+  spawn: NETHER_STAR
